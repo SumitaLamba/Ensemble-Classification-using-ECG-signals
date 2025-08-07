@@ -2,7 +2,6 @@
 """
 DWT-based ECG Signal Denoising for MIT-BIH Dataset
 This script performs denoising on quality-assessed and reconstructed ECG signals
-using Discrete Wavelet Transform (DWT) with various denoising techniques.
 """
 
 # Install required packages
@@ -33,7 +32,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # Define paths
-base_path = '/content/drive/MyDrive/MIT_BIH_Dataset'
+base_path = 'your/dataset/path'
 raw_data_path = os.path.join(base_path, 'raw_data')
 quality_assessment_path = os.path.join(base_path, 'quality_assessment')
 denoised_data_path = os.path.join(base_path, 'denoised_data')
