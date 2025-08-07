@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 """
 MIT-BIH Arrhythmia Dataset Acquisition and Processing
-This script downloads and processes the MIT-BIH arrhythmia dataset from PhysioNet
-for ECG signal analysis and arrhythmia classification.
 """
 
 import os
